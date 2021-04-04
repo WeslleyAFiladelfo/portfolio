@@ -254,7 +254,7 @@ header{
 }
 .conhecimento:nth-child(3){
     grid-column: 4 / 7;
-    grid-row: 11 / 16;
+    grid-row: 4 / 8;
 }
 .conhecimento:nth-child(4){
     grid-column: 11 / 14;
@@ -266,7 +266,7 @@ header{
 }
 .conhecimento:nth-child(6){
     grid-column: 11 / 14;
-    grid-row: 11 / 16;
+    grid-row: 4 / 8;
 }
 
 .sessao-conhecimentos{
@@ -310,8 +310,13 @@ header{
 }
 
 .conhecimentos-img-wrapper{
-    grid-column: 7 / 11;
-    grid-auto-rows: 2 / 6;
+    grid-column: 7 / 12;
+    grid-auto-rows: 5 / 8;
+    width: 100%;
+}
+
+.conhecimentos-img-wrapper img{
+    object-fit: cover;
     width: 100%;
 }
 
